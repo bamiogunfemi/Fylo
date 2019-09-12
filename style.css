@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  k
 }
 h1 h2{
     font-family: 'Raleway'}
@@ -51,9 +52,9 @@ h1 h2{
      
    }
    .support{
-    padding-right: 40px; 
+    padding-right: 60px; 
     border-right: 1px solid #ffffcc; 
-    margin-left: 35px;
+    margin-left: 50px;
    }
   
    .company{
@@ -70,17 +71,20 @@ h1 h2{
  .center{
    padding-top: 3rem;
   text-align: center;
+
 }
 .join-text{
-  width: 65%;
+  width: 64%;
+
 }
 .footer-hide{
   display: none;
 }
 .fylo{
-  padding-left: 40px; 
+  padding-left:50px; 
+  
   border-left: 1px solid #ffffcc;
-   margin-right: 30px;
+   margin-right: 40px;
 }
 
 .footer-show{
@@ -88,7 +92,7 @@ h1 h2{
   flex-direction:row; 
   text-align: center; 
   margin-bottom: 40px;
-  padding-top: 3rem;
+  padding-top: 5rem;
 
 }
 
@@ -160,7 +164,7 @@ background-color: none;
         
       }
       .stay{
-        padding:3rem 0 6rem 0;
+        padding:3rem 0 5rem 0;
       }
     .line{
        border-left: 1px solid #ffffcc;
@@ -190,6 +194,12 @@ background-color: none;
 .grey{
   color:hsl(0, 0%, 50%)
 }
+.logo2{
+  margin-right: 4.2em;
+}
+.pd2{
+  margin-right: 2.2rem;
+}
   
 
 @media screen and (max-width: 600px) {
@@ -207,6 +217,12 @@ border:none;
  margin-bottom: 40px; 
  margin-top: 40px;
  border: none;
+ text-align: left;
+ 
+ padding-left: 1.8rem;
+ }
+ .join-text{
+   width:90%;
  }
   .logo{
     width:5rem;
@@ -214,30 +230,44 @@ border:none;
     padding-top: 0.9rem;
     
   }
-  .center{
-    padding-top: 20rem;
+  
+  .pd2{
+    margin-left: 2.7rem;
+  }
+    .center{
+    padding-top: 0rem;
+    text-align: center;
+  }
+  .move-left{
+    text-align: left;
   }
   .update-text{
-    padding-top: 2rem;
+    padding-top: 4rem;
     padding-bottom: 2rem;
     margin-left: 2rem;
   }
   .logo2{
-    margin-right: 3.2rem;
+    margin-left: 2.5rem;
+   
   }
   .join2{
     position: relative;
-   left:1rem;
+   left:4.9rem;
+  }
+  .stay{
+    padding-top: 0;
+    text-align: center;
   }
   .company{
-    margin-left: 1rem;
+    margin-left: 0.5rem;
   }
   .support{
-   padding-right: -20rem;
+   padding-left: 1.5rem;
+   margin: 0;
     border: none;
   }
   .pd3{
-    margin-left: 1rem;
+    margin-left:2.6rem;
   }
  
   .img-show{
@@ -248,16 +278,23 @@ border:none;
 }
 .footer-hide {
     display: block;
+  padding: 0;
+  margin:0;
 }
 .footer-show {
     display: none;
 }
-.footer{
-  height:60rem;
+
+.footer-row{
+
+  margin-top: 40rem;
+}
+footer::before{
+  margin-top :-200px;
 }
   
 .move-right{
- padding-left: 7.6em;
+ padding-left:7.6rem;
 }
   .topnav a {
     float: none;
@@ -292,14 +329,16 @@ border:none;
   }
 .get-started{
   display: block;
-  margin: auto;
+  margin-left: 1.4rem;
+  margin-top: -3rem;
 }
   #joinus{
 width: 67%;
 margin-left: 1rem;
   }
   .join3{
-    width: 60%;
+    margin-left: 1rem;
+    width: 67%;
   }
 }
 
@@ -330,20 +369,22 @@ input{
 :-ms-input-placeholder {  
  padding: 2px; 
 }
-.row:nth-child(2){
 
-}
 
 footer{
   background-image: linear-gradient(to left, #070439, #070439, #070439, #070439, #070439);
    background-repeat: no-repeat, repeat;
    padding-top: 90px;
-   margin-top: 50px;
-clip-path: polygon(0 0, 100% 40%, 100% 100%, 0% 100%);
+   margin-top: -120px;
+   clip-path: polygon(0 28%, 100% 48%, 100% 100%, 0% 100%);
   color: white;
   font-family: 'Raleway';
 
 }
+.footer-row{
+  padding-top:10rem;
+}
+
 
 .join2{
   position:absolute;
